@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* Global Dark Theme */
+body, html {
+  font-family: 'Inter', sans-serif;
+
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+ 
+}
+
+/* Ensure all layout containers fill the screen properly */
+#root, #app, .app-container, main {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: hidden;
+}
+
+/* Remove any unintended borders */
+.wrapper, .content-wrapper {
+  border: none !important;
+}
