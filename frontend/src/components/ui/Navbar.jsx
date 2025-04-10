@@ -67,7 +67,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="text-xl font-bold text-white flex items-center group">
               <span className="text-blue-400 group-hover:text-blue-300 transition-colors duration-300">Rent</span>
-              <span className="text-white group-hover:text-gray-200 transition-colors duration-300">MyCar</span>
+              <span className="text-white group-hover:text-gray-200 transition-colors duration-300">MyRide</span>
             </Link>
           </div>
 
